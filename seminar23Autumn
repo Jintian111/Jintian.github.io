@@ -1,1 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Geometric Analysis Seminar</title>
+  <link rel="stylesheet" href="https://www.w3.org/StyleSheets/Core/Traditional" type="text/css" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="keywords"
+    content=" Geometric Analysis, Geometric Analysis Seminar, Mathematics, Differential" />
+
+  <!--Latex support-->
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+  </script>
+
+  <style>
+    body {
+      background-color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+   
+
+    <h1 class="seminar-series"> Geometric Analysis Seminar </h1>
+
+ 
+
+    <p>
+      We welcome everyone interested in joining in this seminar on 
+      (Beijing time) 
+      <li>
+        <a><b>Tuesdays 9:30-10:30 AM</b></a> 
+        <li>
+          or 
+      <a><b>Fridays 2:00-3:00 PM</b></a>. 
+      </li>
+      The seminar is usually online with Zoom.
+      <li>
+        <a href="https://zoom.us/j/9528029961?pwd=QnVBS2NxMUMvSS9jNmdJUzdmYTZmZz09">
+          Zoom: 952 802 9961 </a>
+      <li> 
+        <a><b>Password: 314159</b></a>.
+      </li>
+  </p>
+    </div>
+    
+  
+  
+    <!--current quarter-->
+    <div>
+      <h3 style="text-align: center" class="quarter">Autumn 2023</h3>
+
+        <br>
+      <p class="seminar-event">
+      <h4><b>
+          <!--Time and place-->
+         1. Oct 11, 2023 Wed, 9:00-10:00 AM,
+          <span class="location"> 
+            Zoom </span>
+        </b></h4>
+      <div class="speaker">
+        <!--Speaker-->
+    Kai Xu, Duke University
+      </div>
+      <br>
+      <div class="title_abstract">
+        <span class="title">
+          <!--Title-->
+          <a><b>On the existence problem of weak inverse mean curvature flow:</b></a>
+        </span>
+        <span class="abstract">
+          <!--Abstract-->
+       Inverse mean curvature flow is the flow that evolves a mean-convex hypersurface 
+          at the speed of the inverse of its mean curvature. 
+          The focus of this talk is a weak version of the inverse mean curvature flow, 
+          defined by Huisken and Ilmanen in 2001. We will introduce this weak 
+          formulation and explain the behavior of weak solutions. Then we explain 
+          how the existence of weak solutions is affected by the geometry of the manifold.
+          Finally, we introduce the speaker's recent theorem, which roughly states 
+          that a certain isoperimetric inequality of a manifold implies the existence 
+          of weak solutions on it.
+        </span>
+      </p>
+
+          <br>
+      <p class="seminar-event">
+      <h4><b>
+          <!--Time and place-->
+         2. Oct 18, 2023 Wed, 10:00-11:00 AM,
+          Zoom   
+      </b></h4>
+      <div class="speaker">
+        <!--Speaker-->
+    Man-Chun Lee, CUHK
+      </div>
+      <br>
+      <div class="title_abstract">
+        <span class="title">
+          <!--Title-->
+          <a><b>Ricci Flow and pinched curvature on non-compact manifolds:</b></a>
+        </span>
+        <span class="abstract">
+          <!--Abstract-->
+      In dimension three, it was proved recently by Deruelle-Schulze-Simon, 
+          Lott, Lee-Topping that three-manifolds with non-negative pinched 
+          Ricci curvature are compact or flat. In this talk, 
+          we will discuss its partial generalisation to higher dimension 
+          using the Ricci Flow method. This is based on joint work with 
+          P. Topping. 
+
+        </span>
+      </p>
+      
+       <br>
+      <p class="seminar-event">
+      <h4><b>
+          <!--Time and place-->
+         3. Dec 26, 2023 Tue, 9:30-10:30 AM,
+          Zoom
+        </b></h4>
+      <div class="speaker">
+        <!--Speaker-->
+    Hong Huang, Beijing Normal University
+      </div>
+      <br>
+      <div class="title_abstract">
+        <span class="title">
+          <!--Title-->
+          <a><b>Topological classification of compact manifolds with positive isotropic curvature:</b></a>
+        </span>
+        <span class="abstract">
+          <!--Abstract-->
+      The notion of positive isotropic curvature was introduced 
+          by Micallef and Moore in 1988. In this talk I’ll first briefly 
+          survey some of the previous (before 2019) works of various authors on 
+          Riemannian manifolds with positive isotropic curvature. 
+          Then I’ll introduce my recent work on topological classification of 
+          compact manifolds of dimension $n \geq 12$ with positive isotropic curvature, 
+          which uses Ricci flow with surgery on orbifolds and some techniques 
+          from differential topology, and is based on Brendle’s curvature pinching estimates.
+        </span>
+      </div>
+      </p>
+      
+      
+      
+      
+      
+     
+
+     
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+  <br>
+  <br>
+  <br>
+
+  <hr style="width:50%;text-align:left;margin-left:0" />
+
+  <script type="text/javascript">
+    //get btn
+    var btn = document.getElementById('btn');
+    //get past-quarters
+    var content = document.getElementById('past-quarters');
+    //initialize
+    var onOff = false; // true means show
+
+    btn.onclick = function () {
+      if (onOff) {
+        content.hidden = true;
+        btn.innerHTML = 'More';
+      } else {
+        content.hidden = false;
+        btn.innerHTML = 'Less';
+      }
+      onOff = !onOff;
+      return false; //prevent default event
+    }
+  </script>
+
+</body>
+
+</HTML>
 
